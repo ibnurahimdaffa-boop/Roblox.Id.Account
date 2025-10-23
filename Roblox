@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="0; url=http://127.0.0.1:8080">
+    <title>Redirect ke Localhost</title>
+</head>
+<body>
+    <p>Sedang mengalihkan ke <a href="http://127.0.0.1:8080">http://127.0.0.1:8080</a></p>
+    <script>
+        window.location.href = "http://127.0.0.1:8080";
+    </script>
+</body>
+</html>
